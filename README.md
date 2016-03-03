@@ -22,6 +22,7 @@
 	import org.apache.commons.codec.binary.Base64;
 
 	public class RSAEncode {
+		//私钥
 		private static final String PRIVATEKEY = "MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBANQC"
 				+ "oC6334MPhQWnfTDUZ7N1P2clRTfoDp/uMCClSMY1Ptf57nMYa87QbzSui61/9xtNKr1MJ2vCff2La5Dp0vGcWyTOKe"
 				+ "bva1QgPs/G8Vm7wG2QtB4vlkEj0Mfga2IEbTrz8Drk4wSO8gKNjI9E8EnoBKKcUTAjJsgDiPoUP6YRAgMBAAECgYEAlI2W"
@@ -32,6 +33,8 @@
 				+ "Wvi6sfHn1lUMhO60rYehULzIBRjjoUN4Ha7WGy6UAGLOySuluPyyn9TECQGzW5V5DazpZxxMAQhKetP4uF1+46669ocB3G"
 				+ "lGzeB7HRfiSNtaTAyhjEzF0ZozNH2QmfsTi+h5vPjYcZ/lq9/kCQQCwDYpT2Pz2bmmESyJIj"
 				+ "jgLLvyoa1irG0sNvFtNczayj25IzTSTQttBdByi5zteoO2sDvHOAxaE/pdL9HM64bNE";
+				
+		//公钥		
 		private static final String PUBLICKEY = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUAqAut9+DD"
 				+ "4UFp30w1GezdT9nJUU36A6f7jAgpUjGNT7X+e5zGGvO0G80routf/cbTSq9TCdrwn39i2uQ6d"
 				+ "LxnFskzinm72tUID7PxvFZu8BtkLQeL5ZBI9DH4GtiBG068/A65OMEjvICjYyPRPBJ6ASinFEwIybIA4j6FD+mEQIDAQAB";
