@@ -1,6 +1,5 @@
 #RSA非对称加密和数字签名代码示例
-`package encode;
-
+`
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
